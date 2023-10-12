@@ -2,7 +2,6 @@
 
 var Jimp = require('jimp'),
     Couleurs = require('couleurs'),
-    terminalCharWidth = 0.714,
     windowSize = require('window-size');
 
 // Set of basic characters ordered by increasing "darkness"
@@ -54,7 +53,7 @@ var asciify_core = function(path, opts, callback) {
 
     // Percentage based widths
     if (opts.width && opts.width.toString().substr(-1) === '%') {
-      opts.width = Math.floor((parseInt(opts.width.slice(0, -1)) / 100) * (windowSize.width * terminalCharWidth));
+      opts.width = Math.floor((parseInt(opts.width.slice(0, -1)) / 100) * (windowSize.width * 0.714));
     }
 
     // Percentage based heights
