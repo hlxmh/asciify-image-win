@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ajay-gandhi/asciify-image.git"
+    "url": "git+ssh://git@github.com/hlxmh/asciify-image-win.git"
   },
   "keywords": [
     "ascii",
