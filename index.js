@@ -53,7 +53,7 @@ var asciify_core = function(path, opts, callback) {
 
     // Percentage based widths
     if (opts.width && opts.width.toString().substr(-1) === '%') {
-      opts.width = Math.floor((parseInt(opts.width.slice(0, -1)) / 100) * (windowSize.width * 0.714));
+      opts.width = Math.floor((parseInt(opts.width.slice(0, -1)) / 100) * (windowSize.width * 0.5));
     }
 
     // Percentage based heights
