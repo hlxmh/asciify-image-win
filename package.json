@@ -11,7 +11,6 @@
     "jimp": "^0.22.7",
     "minimist": "^1.2.8",
     "request": "^2.88.2",
-    "terminal-char-width": "^1.0.10",
     "window-size": "^1.1.1"
   },
   "devDependencies": {
