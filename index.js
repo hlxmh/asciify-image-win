@@ -2,7 +2,7 @@
 
 var Jimp = require('jimp'),
     Couleurs = require('couleurs'),
-    terminalCharWidth = require('terminal-char-width'),
+    terminalCharWidth = 0.714,
     windowSize = require('window-size');
 
 // Set of basic characters ordered by increasing "darkness"
